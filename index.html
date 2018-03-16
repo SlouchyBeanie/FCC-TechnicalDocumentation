@@ -1,0 +1,83 @@
+  <html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+  	<link rel="stylesheet" href="style.css">
+  	<title>Python Technical Documentation</title>
+  </head>
+  <body>
+		<nav id="navbar">
+			<header>Python Documentation</header>			
+			<ul>
+				<a href="#Introduction" class="nav-link"><li>Introduction</li></a>
+				<a href="#Python_Interpreter" class="nav-link"><li>Python Interpreter</li></a>
+				<a href="#Console_Printing" class="nav-link"><li>Console Printing</li></a>
+				<a href="#Python_Calculator" class="nav-link"><li>Python Calculator</li></a>
+				<a href="#Flow_Controls" class="nav-link"><li>Flow Controls</li></a>
+			</ul> 
+		</nav>
+	
+	<main id="main-doc">
+		<section class="main-section" id="Introduction">
+	 		<header><h1>Introduction</h1></header>
+	 		<p>Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.</p>
+	 		
+	 		<p>Guido Van Rossum wrote Python as a hobby programming project back in the late 1980s. Since then it has grown to become one of the most polished languages of the computing world. He started working on it as a weekend project utilizing his free time during Christmas in Dec’1989. He originally wanted to create an interpreter, a descendant of the ABC programming language which he was a contributing developer. And we all know that it was none other than Python which gradually transformed into a full-fledged programming language.</p>
+	 		
+	 		<p>Guido initially thought the Unix/C hackers to be the target users of his project. And more importantly, he was fond of watching the famous comedy series The Monty Python’s Flying Circus. Thus, the name Python struck his mind as not only has it appealed to his taste but also to his target users.</p>
+		</section>
+		
+		<section class="main-section" id="Python_Interpreter">
+	 		<header><h1>Python Interpreter</h1></header>
+	 		<p>The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.</p>
+	 		
+	 		<p>The interpreter operates somewhat like the Unix shell: when called with the standard library, it reads and executes commands interactively; when called with a file name argument or with a file as standard input, it reads and executes a script from that file.</p>
+	 		
+	 		<p>The classic "Hello World" example is quite trivial in Python, as it's simply one line of code:</p>
+	 		
+	 		<code>print("Hello World")</code>
+		</section>
+		
+		<section class="main-section" id="Console_Printing">
+	 		<header><h1>Console Printing</h1></header>
+	 		<p>As you saw in the last section, the <i>print</i> function declares to the interpreter to print the following string which is passed to the function to the console. </p>
+	 		
+	 		<p>A better example is showing how Python can do math! I'll show the code below first and then we will go over how each part works.</p>
+	 		
+	 		<code># Add two numbers
+num1 = 3
+num2 = 5
+sum = num1+num2
+print(sum)</code>
+	
+			<p>The first line is called comment. This line does not get sent to the interpreter, as it's purely there for other programmers to read and help show what the code is doing. The hashtag invokes the comment, and everything following that on that line is part of the comment.</p>
+			
+			<p>The next lines invoke two different variables, num1 and num2, respectively. This assigns the variables the values after the equals sign. Since Python is dynamically typed, you don't need to specify whether the variable is a character or numeric, or what the length is, the interpreter will do that for you!</p>
+			
+			<p>The third line of code creates the variable called "sum", which represents the value of the variable num1 being added to the value of the variable num2. In this case, it would be the result of 3 + 5</p>
+		</section>
+		
+		<section class="main-section" id="Python_Calculator">
+	 		<header><h1>Python Calculator</h1></header>
+      <p>Within Python, you can do all sorts of math, such as:</p>
+      <ul>
+        <li>Addition</li>
+        <code>print(1+2)</code>
+        <li>Subtraction</li>
+        <code>print(2-1)</code>
+        <li>Multiplication</li>
+        <code>print(2*2)</code>
+        <li>Division</li>
+        <code>print(9/3)</code>
+        <li>Modulo</li>
+        <code>print(10%3)</code>
+      </ul>
+		</section>
+		
+		<section class="main-section" id="Flow_Controls">
+	 		<header><h1>Flow Controls</h1></header>
+      <p>Flow controls are operators such as if, if else, if else then. Just like most other programming languages, Python is capable of these operations.</p>
+		</section>
+		
+	</main>
+</body>
+</html>
